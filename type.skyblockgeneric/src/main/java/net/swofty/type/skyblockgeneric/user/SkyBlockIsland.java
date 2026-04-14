@@ -44,7 +44,7 @@ import java.util.concurrent.ConcurrentHashMap;
 
 @Getter
 public class SkyBlockIsland {
-    private static final String ISLAND_TEMPLATE_NAME = CustomWorlds.SKYBLOCK_ISLAND_TEMPLATE.getFolderName();
+    private static final Path ISLAND_TEMPLATE_PATH = CustomWorlds.SKYBLOCK_ISLAND_TEMPLATE.getPath();
     private static final Map<UUID, SkyBlockIsland> loadedIslands = new ConcurrentHashMap<>();
 
     // Internal Island Data
